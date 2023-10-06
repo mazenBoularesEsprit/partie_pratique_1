@@ -1,9 +1,26 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("bla bla test 1");
+        Scanner scanner = new Scanner(System.in);
+         Nourhene nounou = new Nourhene();
+        // 1. Demander à l'utilisateur de saisir un nombre.
+        System.out.println("Veuillez saisir un nombre :");
+        int nombre = scanner.nextInt();
+
+        // 2. Vérifier si le nombre est négatif.
+        if (nombre < 0) {
+            System.out.println("Le nombre doit être positif.");
+            return;
+        }
+
+        // 3. Vérifier si le nombre est pair.
+        if (nounou.estPair()) {
+            System.out.println("Le nombre est pair.");
+        } else {
+            System.out.println("Le nombre est impair.");
+        }
 
         int[] tab = {1, 2, 3, 4, 5};
         int s = 0;
