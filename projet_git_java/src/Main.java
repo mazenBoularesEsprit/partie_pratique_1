@@ -5,7 +5,12 @@ public class Main {
 
         System.out.println("bla bla test 1");
 
-        System.out.println("commiting on bracnh mazen ");
+        int[] tab = {1, 2, 3, 4, 5};
+        int s = 0;
+        for( int i : tab) {
+            s = s + i;
+        }
+        System.out.println("La somme des éléments du tableau est : "+ s);
 
 
 
