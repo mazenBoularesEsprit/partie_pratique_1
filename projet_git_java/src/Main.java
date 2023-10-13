@@ -29,6 +29,18 @@ public class Main {
         }
         System.out.println("La somme des éléments du tableau est : "+ s);
 
+        int[] tab2 = {1, 2, 8, 4, 5};
+        int s = 0;
+        float moyenne = 0;
+
+        for( int i : tab2) {
+            s = s + i;
+        }
+        moyenne = s / tab2.length;
+        System.out.println("La moyenne des éléments du tableau est : "+ moyenne);
+
+
+
 
         nt[] tab = {1, 2, 3, 4, 5};
         int s = 0;
