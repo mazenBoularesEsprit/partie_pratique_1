@@ -38,4 +38,11 @@ public class Nourhene {
             System.out.println("Le nombre n'est pas premier.");
         } return true;
     }
+    public int factorielle(int nombre) {
+        if (nombre == 0) {
+            return 1;
+        } else {
+            return nombre * factorielle(nombre - 1);
+        }
+    }
 }

@@ -21,7 +21,9 @@ public class Main {
         } else {
             System.out.println("Le nombre est impair.");
         }
-
+       // 4. methode factorielle
+        System.out.println("methode factorielle.");
+        System.out.println(nounou.factorielle(5));
 
     }
 }
