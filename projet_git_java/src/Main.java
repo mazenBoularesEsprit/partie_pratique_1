@@ -1,21 +1,14 @@
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
+import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("bla bla test 1");
+        int[] tab = {5, 1, 8, 0, 9, 4};
 
-        int[] tab2 = {1, 2, 8, 4, 5};
-        int s = 0;
-        float moyenne = 0;
+        Arrays.sort(tab);
 
-        for( int i : tab2) {
-            s = s + i;
-        }
-        moyenne = s / tab2.length;
-        System.out.println("La moyenne des éléments du tableau est : "+ moyenne);
-
-
+        System.out.printf("tab[] : %s", Arrays.toString(tab));;
 
 
     }
