@@ -1,3 +1,4 @@
+import java.io.OptionalDataException;
 import java.util.Scanner;
 
 public class Main {
@@ -30,16 +31,18 @@ public class Main {
         System.out.println("La somme des éléments du tableau est : "+ s);
 
 
-        nt[] tab = {1, 2, 3, 4, 5};
-        int s = 0;
+
         float moyenne = 0;
 
         for( int i : tab) {
             s = s + i;
         }
+        float somme;
+        OptionalDataException array;
         moyenne = somme / array.length;
         System.out.println("La moyenne des éléments du tableau est : "+ moyenne);
     }
+        System.out.println("Bonjourrr");
 
 
 
